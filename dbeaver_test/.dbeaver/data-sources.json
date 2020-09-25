@@ -1,0 +1,40 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-174c4ee06a7-7eb66eee013334e": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "test",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "10.247.190.5",
+				"port": "5434",
+				"database": "test",
+				"url": "jdbc:postgresql://10.247.190.5:5434/test",
+				"home": "postgresql-x64-12",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Разработка",
+			"color": "255,255,255",
+			"description": "База данных для разработки",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
